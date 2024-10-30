@@ -1,0 +1,304 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MagniPOS\n"
+"POT-Creation-Date: 2024-04-27 12:23+0530\n"
+"PO-Revision-Date: 2024-04-27 12:23+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: magni-pos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: admin/class-admin-helper.php:118
+#, php-format
+msgid ""
+"MagniPOS cannot be connected because your site URL doesn't appear to be a "
+"valid URL. If the domain name contains special characters, please make sure "
+"to use the encoded version in the %1$s &amp; %2$s fields on the %3$s page."
+msgstr ""
+
+#: admin/class-admin-helper.php:119
+msgid "WordPress Address (URL)"
+msgstr ""
+
+#: admin/class-admin-helper.php:120
+msgid "Site Address (URL)"
+msgstr ""
+
+#: admin/class-admin-helper.php:121
+msgid "WordPress General Settings"
+msgstr ""
+
+#: public/class-magni-pos-public.php:90
+msgid "Supplier"
+msgstr ""
+
+#: public/class-magni-pos-public.php:103
+msgid "Employee"
+msgstr ""
+
+#: public/class-magni-pos-public.php:154
+#, php-format
+msgid ""
+"MagniPOS requires <a href=\"%1$s\" target=\"_blank\">WooCommerce</a> plugin "
+"to be installed. Please install and activate it"
+msgstr ""
+
+#: public/class-magni-pos-public.php:171
+#: public/class-mp-report-top-sellers-controller.php:280
+#: public/class-mp-rest-orders-controller.php:451
+msgctxt "Order status"
+msgid "Pending Purchase"
+msgstr ""
+
+#. translators: %s: number of orders
+#: public/class-magni-pos-public.php:177
+#, php-format
+msgid "Pending Purchase <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Purchase <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-magni-pos-public.php:181
+#: public/class-mp-report-top-sellers-controller.php:281
+#: public/class-mp-rest-orders-controller.php:452
+msgctxt "Order status"
+msgid "Ordered Purchase"
+msgstr ""
+
+#. translators: %s: number of orders
+#: public/class-magni-pos-public.php:187
+#, php-format
+msgid "Ordered Purchase <span class=\"count\">(%s)</span>"
+msgid_plural "Ordered Purchase <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-magni-pos-public.php:191
+#: public/class-mp-report-top-sellers-controller.php:282
+#: public/class-mp-rest-orders-controller.php:453
+msgctxt "Order status"
+msgid "Received Purchase"
+msgstr ""
+
+#. translators: %s: number of orders
+#: public/class-magni-pos-public.php:197
+#, php-format
+msgid "Received Purchase <span class=\"count\">(%s)</span>"
+msgid_plural "Received Purchase <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-magni-pos-public.php:264
+msgid "You have received a new order !!"
+msgstr ""
+
+#: public/class-magni-pos-public.php:265
+#, php-format
+msgid "Order Id #%s"
+msgstr ""
+
+#: public/class-mp-customer-api-controller.php:101
+#: public/class-mp-customer-api-controller.php:110
+#: public/class-mp-product-attribute-terms-controller.php:94
+#: public/class-mp-product-attribute-terms-controller.php:103
+#: public/class-mp-report-top-sellers-controller.php:100
+#: public/class-mp-report-top-sellers-controller.php:109
+#: public/class-mp-rest-api-controller.php:113
+#: public/class-mp-rest-api-controller.php:122
+#: public/class-mp-supplier-api-controller.php:70
+#: public/class-mp-supplier-api-controller.php:79
+msgid "Sorry, you cannot give permission."
+msgstr ""
+
+#: public/class-mp-modify-query-controller.php:129
+#: public/class-mp-modify-query-controller.php:754
+msgid "Purchase price"
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:75
+msgid "The order ID."
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:79
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:99
+msgid "Required to be true, as resource does not support trashing."
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:137
+msgid "Invalid order ID."
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:141
+msgid "Refund amount must be greater than zero."
+msgstr ""
+
+#: public/class-mp-order-refunds-controller.php:161
+msgid "Cannot create order refund, please try again."
+msgstr ""
+
+#. translators: %s item name.
+#: public/class-mp-order-stock-controller.php:73
+#, php-format
+msgid "Unable to increase stock for item %s."
+msgstr ""
+
+#: public/class-mp-order-stock-controller.php:85
+#: public/class-mp-order-stock-controller.php:332
+msgid "Stock levels increased:"
+msgstr ""
+
+#. translators: %s item name.
+#: public/class-mp-order-stock-controller.php:133
+#: public/class-mp-order-stock-controller.php:309
+#: public/class-mp-order-stock-controller.php:325
+#, php-format
+msgid "Unable to restore stock for item %s."
+msgstr ""
+
+#: public/class-mp-order-stock-controller.php:316
+msgid "Stock levels restore:"
+msgstr ""
+
+#: public/class-mp-product-attribute-terms-controller.php:51
+msgid "Unique identifier for the attribute of the terms."
+msgstr ""
+
+#: public/class-mp-product-variations-controller.php:408
+msgid "Cannot set attributes due to invalid parent product."
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:252
+msgid "Enter a username or email address."
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:256
+#: public/class-mp-rest-api-controller.php:263
+msgid "There is no account with that username or email address."
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:280
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#. translators: %s: Site Name
+#: public/class-mp-rest-api-controller.php:282
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#. translators: %s: Username
+#: public/class-mp-rest-api-controller.php:284
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:285
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:286
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#. translators: %s: Password Reset
+#: public/class-mp-rest-api-controller.php:289
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: public/class-mp-rest-api-controller.php:294
+msgid ""
+"The email could not be sent. Your site may not be correctly configured to "
+"send emails."
+msgstr ""
+
+#: public/class-mp-rest-orders-controller.php:273
+msgid "Coupon item ID is readonly."
+msgstr ""
+
+#: public/class-mp-rest-orders-controller.php:277
+msgid "Coupon code is required."
+msgstr ""
+
+#: public/class-mp-rest-orders-controller.php:414
+msgid "Customer ID is invalid."
+msgstr ""
+
+#: public/class-mp-rest-orders-controller.php:614
+msgid "Limit result set to orders which have specific statuses."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:48
+msgid "Authorization header not found."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:49
+msgid "Authorization header malformed."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:103
+msgid "Custom authentication failed."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:137
+#: public/jwt/class-magni-pos-auth.php:321
+msgid "JWT is not configured properly."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:209
+msgid "Credential is valid"
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:341
+msgid "The iss do not match with this server."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:356
+msgid "User ID not found in the token."
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:372
+msgid "User doesn't exist"
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:393
+msgid "Token is obsolete"
+msgstr ""
+
+#: public/jwt/class-magni-pos-auth.php:409
+msgid "Token is valid"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MagniPOS"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.magnigenie.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "MagniPos is a Point of Sale System(POS) for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MagniGenie"
+msgstr ""
